@@ -1,0 +1,30 @@
+@import "./vars.css";
+
+
+.proof-time-alert-cont {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-shadow: 0 4px 0 var(--shadow-black);
+}
+.proof-time-alert {
+    width: 60%;
+}
+
+.proof-time-alert__max-days {
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+@media(min-width: 1000px) {
+    .proof-time-alert-cont {
+        height: 50px;
+        border-radius: 5px;
+    }
+}
